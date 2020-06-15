@@ -17,8 +17,17 @@ elif r == 0:
     x = (-b) / 2*a
     print("There is one root: ", x)
 else:
-    num_roots = 0
-    print("imaginary roots, discriminant < 0.")
-    exit()
+    num_roots = 2
+    real=(-b)/(2*a)
+    imaginary= sqrt(-r)/(2*a)
+    x1=complex(real,imaginary)
+    x2=complex(real,imaginary)
+    print("There are 2 imaginary roots")
+    print(x1,x2)
+    
+exit()
+	
+    
+
 	
     
