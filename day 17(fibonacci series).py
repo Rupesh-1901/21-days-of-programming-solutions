@@ -1,14 +1,17 @@
-def fibo(n):  
-   if n <= 1:  
-       return n  
-   else:  
-       return(fibo(n-1) + fibo(n-2))  
+def fibo(a,b,n):
+   if n>0:
+       print(a+b)
+       fibo(b,a+b,n-1)  
 
-nterms = int(input("Enter number of terms "))  
-  
-if nterms <= 0:  
-   print("Plese enter a positive integer")  
+n = int(input("Enter number of terms: "))
+a=int(input("please enter the 1st positive integer:"))
+b=int(input("plese enter the 2nd positive integer:"))
+if n <= 0:  
+   print("Please enter a positive integer")
 else:  
    print("Fibonacci sequence:")  
-   for i in range(nterms):  
-       print(fibo(i))  
+   print(a)
+   print(b)
+   fibo(a,b,n-2)  
+ 
+
