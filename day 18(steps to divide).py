@@ -14,14 +14,19 @@ else:
                for i in range(0, mod):
                              steps=steps+1
                             
-                             print("the least amount of steps needed is :")
-                             print(steps)
+               print("the least amount of steps needed is :")
+               print(steps)
 
       elif(mod>mod1):
                for i in range(0, mod1):
                              steps=steps+1
     
-                             print("the least amount of steps needed is: ")
-                             print(steps)
+               print("the least amount of steps needed is: ")
+               print(steps)
           
+      elif(mod==mod1):
+               for i in range(0, mod1):
+                             steps=steps+1
     
+               print("the least amount of steps needed is: ")
+               print(steps)
